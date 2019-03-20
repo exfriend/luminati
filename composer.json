@@ -1,0 +1,25 @@
+{
+  "name": "exfriend/luminati",
+  "description": "Luminati.io client fro Laravel"
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "exfriend",
+      "email": "i@zlad.tk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Exfriend\\Luminati": "src/"
+    }
+  },
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Exfriend\\Luminati\\LuminatiServiceProvider"
+      ]
+    }
+  }
+}
