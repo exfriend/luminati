@@ -1,6 +1,6 @@
 <?php
 
-namespace Exfriend\Luminati\Models;
+namespace Exfriend\Luminati;
 
 
 class Proxy

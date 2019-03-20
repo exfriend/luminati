@@ -13,7 +13,7 @@ class CreateIpsTable extends Migration
      */
     public function up()
     {
-        Schema::create( 'ips', function ( Blueprint $table )
+        Schema::create( 'luminati_ips', function ( Blueprint $table )
         {
             $table->increments( 'id' );
             $table->string( 'ip' )->unique();
@@ -28,6 +28,6 @@ class CreateIpsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists( 'ips' );
+        Schema::dropIfExists( 'luminati_ips' );
     }
 }
