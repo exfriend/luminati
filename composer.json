@@ -1,6 +1,6 @@
 {
   "name": "exfriend/luminati",
-  "description": "Luminati.io client fro Laravel",
+  "description": "Luminati.io client for Laravel",
   "type": "library",
   "license": "MIT",
   "authors": [
